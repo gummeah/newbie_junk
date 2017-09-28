@@ -1,7 +1,8 @@
 #!python3
 
-def selection_sort(a, n):
-    for i in range(0, n):
+def selection_sort(a):
+    n = len(a)
+    for i in range(0, n-1):
         k = i #minimal value index for this row
         for j in range(i+1, n):
             if a[j] < a[k]:
