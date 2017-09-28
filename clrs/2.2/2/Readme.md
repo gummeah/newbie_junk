@@ -15,4 +15,5 @@ If A[1..n-1] elements is sorted non-decreasing subarray, which loop invariant ki
 # complexity
 
 worst-case = θ(n^2) 
+ 
 best-case = θ(n^2) # because of need to find minimal subarray value at each iteration.
